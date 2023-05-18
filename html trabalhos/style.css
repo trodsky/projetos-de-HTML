@@ -1,0 +1,24 @@
+P{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    
+    color: green;
+}
+
+body{
+    background-image: url('https://th.bing.com/th/id/R.aca833f3a144b0c9abce41ee064ce648?rik=jWj7cdx0ayIRZg&pid=ImgRaw&r=0');
+}
+.ifrn{
+    color: blue;
+}
+.bol{
+    font-weight: bold;
+}
+
+#chuva{
+    color: burlywood;
+}
