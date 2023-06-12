@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quer namorar comigo?</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    h1 {
+      margin-top: 100px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4286f4;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn-yes {
+      background-color: #32CD32;
+    }
+
+    .btn-no {
+      background-color: #FF4500;
+    }
+
+    .happy-face {
+      font-size: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Quer namorar comigo?</h1>
+
+  <div>
+    <button id="btnYes" class="btn btn-yes">Sim</button>
+    <button id="btnNo" class="btn btn-no">Não</button>
+  </div>
+
+  <div id="result" style="display: none;">
+    <h2>Obrigado por aceitar!</h2>
+    <p>Vamos começar essa nova etapa juntos.</p>
+    <span class="happy-face">&#128513;</span>
+  </div>
+
+  <script>
+    document.getElementById("btnYes").addEventListener("click", function() {
+      var btnYes = document.getElementById("btnYes");
+      btnYes.style.position = "absolute";
+      btnYes.style.left = (Math.random() * (window.innerWidth - btnYes.offsetWidth)) + "px";
+      btnYes.style.top = (Math.random() * (window.innerHeight - btnYes.offsetHeight)) + "px";
+    });
+
+    document.getElementById("btnNo").addEventListener("click", function() {
+      document.body.innerHTML = "<h1>poxa que pena ksksskskskskssk</h1><span class='happy-face'>&#128515;</span>";
+    });
+  </script>
+</body>
+</html>
+
+
