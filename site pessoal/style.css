@@ -1,0 +1,101 @@
+/* Configurações gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  /* Estilizando o header */
+  .header {
+    background-image: url('leon.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 60px;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-title {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Estilizando a navegação */
+  .nav {
+    text-align: right;
+    margin-top: -40px;
+  }
+  
+  .nav-item {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-item a:hover {
+    color: #f00; /* Mudando a cor ao passar o mouse */
+  }
+  
+  /* Estilizando as seções */
+  .section {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .section-text {
+    font-size: 16px;
+  }
+  
+  /* Estilizando as curiosidades e habilidades */
+  .section-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+  }
+  
+  .section-list li {
+    width: calc(50% - 10px); /* Dividindo em duas colunas com espaço entre */
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilizando a tabela de educação */
+  .section-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .section-table th, .section-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Estilizando a imagem na seção "Sobre mim" */
+  .section-image {
+    border-radius: 50%; /* Deixa a imagem redonda */
+    display: block;
+    margin: 0 auto;
+  }
+  
